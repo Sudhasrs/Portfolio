@@ -96,7 +96,7 @@ function App() {
           variants={containerVariants}
           initial="hidden"
           animate={mounted ? "visible" : "hidden"}
-          className="main-grid mt-20"
+          className="main-grid mt-20 mb-20"
         >
           <motion.div
             variants={itemVariants}
@@ -252,7 +252,7 @@ function App() {
           <motion.div
             variants={itemVariants}
             id="contact"
-            className="mt-10 mb-20 card card-cyan md:col-span-1 row-span-5 flex flex-col gap-4"
+            className="mt-10 card card-cyan md:col-span-1 row-span-4 flex flex-col gap-4"
           >
             <h2 className="section-title">
               <Send size={24} className="inline-block mb-1" />
